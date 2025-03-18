@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# UV specific
+uv.lock
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# YOLO specific
+*.pt
+*.onnx
+*.engine
+*.weights
+*.mlmodel
+
+# Training results
+runs/
+
+# Dataset files
+data/raw/
+data/processed/
+data/augmented/
+*.zip
+
+# Weights & Biases
+wandb/
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/ 
